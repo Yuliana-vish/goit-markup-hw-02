@@ -19,6 +19,7 @@ body {
 	font-family: Roboto, sans-serif;
 	background: var(--primary-white-color);
 	color: var(--primary-text-color);
+	font-size: 16px;
 }
 
 .logo {
@@ -39,7 +40,6 @@ ul {
 /* Site nav*/
 .site-nav .link {
 	color: var(--title-text-color);
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.1;
@@ -52,14 +52,7 @@ ul {
 .site-nav .link.current {
 	color: var(--accent-color);
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: Roboto, sans-serif;
-	color: var(--title-text-color);
-}
+
 /* hero */
 
 .hero-title {
@@ -74,11 +67,7 @@ h6 {
 
 .hero button {
 	font-weight: 700;
-	font-size: 16px;
 	line-height: 1.9;
-	display: flex;
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
@@ -92,8 +81,8 @@ h6 {
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 }
-.features--list-title {
-	font-family: Roboto;
+.features-list-title {
+	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.1;
@@ -102,7 +91,7 @@ h6 {
 
 /* work */
 .work-title {
-	font-family: Roboto;
+	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.2;
@@ -112,15 +101,13 @@ h6 {
 /* team */
 
 .team-list {
-	font-family: Roboto;
 	font-weight: 400;
-	font-size: 16px;
 	line-height: 1.2;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 .team-list-title {
-	font-family: Roboto;
+	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.2;
@@ -128,9 +115,8 @@ h6 {
 	letter-spacing: 0.03em;
 }
 .name-title {
-	font-family: Roboto;
+	color: var(--title-text-color);
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 1.2;
 	text-align: center;
 	letter-spacing: 0.03em;
@@ -154,4 +140,17 @@ h6 {
 .projects-type button:focus {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
+}
+
+/*projects*/
+.project-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.project-type {
+	line-height: 1.87;
+	letter-spacing: 0.03em;
 }
