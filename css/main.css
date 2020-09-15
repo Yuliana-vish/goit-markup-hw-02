@@ -37,13 +37,15 @@ body {
 ul {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+}
 /* Site nav*/
 .site-nav .link {
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.1;
-	text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
